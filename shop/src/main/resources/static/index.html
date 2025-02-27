@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+<title>Welcome to Online Book Shop</title>
+<link rel="stylesheet" href="">
+</head>
+<body>
+<h1 id="heading">Welcome to Online Book Shop</h1>
+<p class="message">paragraph</p>
+<button id ="btn"></button>
+
+ 
+   
+</body>
+<script type="text/javascript">
+const heading=document.getElementById('heading');
+const message=document.getElementByClassName('message');
+const tag=document.getElementByTagName('h1');
+
+/*function example(){
+	let x=10;
+	if(true){
+		let x=20
+		console.log(x);
+	}
+	console.log(x);
+}
+example();
+
+const person={name:"afrin",age:21};
+console.log(person);*/
+
+// let user={
+// 		name2:"Afroz",
+// 		greet:function() {
+// 			console.log(`Hello ,${this.name2}`);
+// 		}
+// };
+// user.greet();
+
+// let user0 = { name1: "Bunty", greet: "Hello" };
+// let { name1, greet } = user0;
+// console.log(name1); 
+// console.log(greet); 
+
+
+
+// let user1 = { name: "Bunty", greet: "Hello" };
+// let copyUser = { ...user1 };
+// console.log(copyUser);
+
+
+
+// let user2 = { name: "Bunty" };
+// let user3 = { greet: "Hello" };
+// let mergeUser = { ...user2, ...user3};
+// console.log(mergeUser);const user = { name: "Bunty", age: 25, city: "New York" };
+
+const user = { name: "Bunty", age: 25, city: "New York" };
+
+for (let key in user) {
+    console.log(`${key}: ${user[key]}`);
+}
+
+
+const numbers = [1, 2, 3, 4, 5];
+
+for (let number of numbers) {
+    console.log(number);
+}
+
+
+
+
+
+
+</script>
+</html>
